@@ -1,0 +1,139 @@
+{
+  "Jogo": "Vasco vs Volta Redonda",
+  "Data": "2025-02-01T19:30:00Z",
+  "HomeTeam": "Vasco",
+  "AwayTeam": "Volta Redonda",
+  "Mercados":
+    [
+      {
+        "Mercado": "Resultado da Partida - VP (+2)",
+        "Seleções":
+          [
+            { "Seleção": "Vasco", "Preço": 1.47 },
+            { "Seleção": "X", "Preço": 4.2 },
+            { "Seleção": "Volta Redonda", "Preço": 6.75 },
+          ],
+      },
+      {
+        "Mercado": "1ª equipe a marcar",
+        "Seleções":
+          [
+            { "Seleção": "Vasco", "Preço": 1.4 },
+            { "Seleção": "Sem gols", "Preço": 8.75 },
+            { "Seleção": "Volta Redonda", "Preço": 3.5 },
+          ],
+      },
+      {
+        "Mercado": "Total de Gols",
+        "Seleções":
+          [
+            { "Seleção": "Mais de 2,5", "Preço": 2.0 },
+            { "Seleção": "Menos de 2,5", "Preço": 1.71 },
+          ],
+      },
+      {
+        "Mercado": "Total de Gols",
+        "Seleções":
+          [
+            { "Seleção": "Mais de 1,5", "Preço": 1.34 },
+            { "Seleção": "Menos de 1,5", "Preço": 3.0 },
+          ],
+      },
+      {
+        "Mercado": "Total de Gols",
+        "Seleções":
+          [
+            { "Seleção": "Mais de 3,5", "Preço": 3.6 },
+            { "Seleção": "Menos de 3,5", "Preço": 1.26 },
+          ],
+      },
+      {
+        "Mercado": "Total de Gols",
+        "Seleções":
+          [
+            { "Seleção": "Mais de 0,5", "Preço": 1.06 },
+            { "Seleção": "Menos de 0,5", "Preço": 8.75 },
+          ],
+      },
+      {
+        "Mercado": "Total de Gols",
+        "Seleções":
+          [
+            { "Seleção": "Mais de 4,5", "Preço": 7.0 },
+            { "Seleção": "Menos de 4,5", "Preço": 1.09 },
+          ],
+      },
+      {
+        "Mercado": "Chance Dupla",
+        "Seleções":
+          [
+            { "Seleção": "Vasco ou X", "Preço": 1.11 },
+            { "Seleção": "X ou Volta Redonda", "Preço": 2.6 },
+            { "Seleção": "Vasco ou Volta Redonda", "Preço": 1.21 },
+          ],
+      },
+      {
+        "Mercado": "Total de Gols",
+        "Seleções":
+          [
+            { "Seleção": "Mais de 5,5", "Preço": 15.0 },
+            { "Seleção": "Menos de 5,5", "Preço": 1.02 },
+          ],
+      },
+      {
+        "Mercado": "Total de Gols",
+        "Seleções":
+          [
+            { "Seleção": "Mais de 6,5", "Preço": 31.0 },
+            { "Seleção": "Menos de 6,5", "Preço": 1.0 },
+          ],
+      },
+      {
+        "Mercado": "Ambas Marcam",
+        "Seleções":
+          [
+            { "Seleção": "Sim", "Preço": 2.25 },
+            { "Seleção": "Não", "Preço": 1.57 },
+          ],
+      },
+      {
+        "Mercado": "Resultado da Partida e Quais Equipes Marcam",
+        "Seleções":
+          [
+            {
+              "Seleção": "Vasco vence e ambas as equipes marcam",
+              "Preço": 3.8,
+            },
+            {
+              "Seleção": "Volta Redonda vence e ambas as equipes marcam",
+              "Preço": 13.0,
+            },
+            { "Seleção": "Vasco vence sem levar gol", "Preço": 2.1 },
+            { "Seleção": "Volta Redonda vence sem levar gol", "Preço": 9.0 },
+            {
+              "Seleção": "Ambas marcam e a partida termina empatada",
+              "Preço": 6.0,
+            },
+            { "Seleção": "Nenhuma equipe marca", "Preço": 8.75 },
+          ],
+      },
+      {
+        "Mercado": "Resultado do jogo e Total de gols 2,5",
+        "Seleções":
+          [
+            { "Seleção": "Vasco e mais de 2,5 gols marcados", "Preço": 2.45 },
+            {
+              "Seleção": "Volta Redonda e mais de 2,5 gols marcados",
+              "Preço": 12.0,
+            },
+            { "Seleção": "Empate e mais de 2,5 gols marcados", "Preço": 17.5 },
+            { "Seleção": "Vasco e menos de 2,5 gols marcados", "Preço": 3.0 },
+            {
+              "Seleção": "Volta Redonda e menos de 2,5 gols marcados",
+              "Preço": 9.75,
+            },
+            { "Seleção": "Empate e menos de 2,5 gols marcados", "Preço": 4.6 },
+          ],
+      },
+    ],
+}

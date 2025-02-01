@@ -1,0 +1,1613 @@
+[
+	{
+		"Jogo": "Vasco da Gama - Volta Redonda",
+		"Data": 1738438200000,
+		"HomeTeam": "Não Encontrado",
+		"AwayTeam": "Não Encontrado",
+		"Mercados":
+			[
+				{
+					"Mercado: ": "Resultado Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1", "Preço: ": 1.44 },
+							{ "Seleções: ": "X", "Preço: ": 4.1 },
+							{ "Seleções: ": "2", "Preço: ": 7.0 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 2.02 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.72 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 2.27 },
+							{ "Seleções: ": "Não", "Preço: ": 1.57 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam ou Mais de 2.5",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 1.7 },
+							{
+								"Seleções: ": "Não (2-0, 1-0, 0-0, 0-1 ou 0-2)",
+								"Preço: ": 2.05,
+							},
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1X", "Preço: ": 1.1 },
+							{ "Seleções: ": "12", "Preço: ": 1.2 },
+							{ "Seleções: ": "X2", "Preço: ": 2.77 },
+						],
+				},
+				{
+					"Mercado: ": "Empate Anula",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Vasco da Gama", "Preço: ": 1.14 },
+							{ "Seleções: ": "Volta Redonda", "Preço: ": 4.85 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos (alternativas)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.07 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 6.9 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.34 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 3.0 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 3.4 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.27 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 6.0 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.1 },
+							{ "Seleções: ": "Mais de 5.5", "Preço: ": 9.25 },
+							{ "Seleções: ": "Menos de 5.5", "Preço: ": 1.03 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado do 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Vasco da Gama", "Preço: ": 1.95 },
+							{ "Seleções: ": "Empate", "Preço: ": 2.25 },
+							{ "Seleções: ": "Volta Redonda", "Preço: ": 6.7 },
+						],
+				},
+				{
+					"Mercado: ": "Total de gols Mais/Menos - 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.4 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 2.72 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 2.75 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.39 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 6.0 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.09 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 10.25 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.02 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 2.5", "Preço: ": 2.4 },
+							{ "Seleções: ": "1 e Menos de 2.5", "Preço: ": 2.95 },
+							{ "Seleções: ": "2 e Mais de 2.5", "Preço: ": 14.5 },
+							{ "Seleções: ": "2 e Menos de 2.5", "Preço: ": 11.0 },
+							{ "Seleções: ": "X e Mais de 2.5", "Preço: ": 21.0 },
+							{ "Seleções: ": "X e Menos de 2.5", "Preço: ": 4.6 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 3.5", "Preço: ": 4.3 },
+							{ "Seleções: ": "1 e Menos de 3.5", "Preço: ": 1.93 },
+							{ "Seleções: ": "2 e Mais de 3.5", "Preço: ": 40.0 },
+							{ "Seleções: ": "2 e Menos de 3.5", "Preço: ": 7.5 },
+							{ "Seleções: ": "X e Mais de 3.5", "Preço: ": 20.0 },
+							{ "Seleções: ": "X e Menos de 3.5", "Preço: ": 4.6 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Vasco da Gama / Sim", "Preço: ": 3.85 },
+							{ "Seleções: ": "Vasco da Gama / Não", "Preço: ": 2.05 },
+							{ "Seleções: ": "Empate / Sim", "Preço: ": 6.1 },
+							{ "Seleções: ": "Empate / Não", "Preço: ": 6.9 },
+							{ "Seleções: ": "Volta Redonda / Sim", "Preço: ": 15.5 },
+							{ "Seleções: ": "Volta Redonda / Não", "Preço: ": 10.5 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 2.5", "Preço: ": 2.95 },
+							{ "Seleções: ": "Não e Mais de 2.5", "Preço: ": 5.4 },
+							{ "Seleções: ": "Sim e Menos de 2.5", "Preço: ": 8.25 },
+							{ "Seleções: ": "Não e Menos de 2.5", "Preço: ": 2.07 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 3.5", "Preço: ": 4.7 },
+							{ "Seleções: ": "Não e Mais de 3.5", "Preço: ": 11.75 },
+							{ "Seleções: ": "Sim e Menos de 3.5", "Preço: ": 3.9 },
+							{ "Seleções: ": "Não e Menos de 3.5", "Preço: ": 1.75 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Sim", "Preço: ": 3.35 },
+							{ "Seleções: ": "12 e Não", "Preço: ": 1.82 },
+							{ "Seleções: ": "1X e Sim", "Preço: ": 2.6 },
+							{ "Seleções: ": "1X e Não", "Preço: ": 1.78 },
+							{ "Seleções: ": "X2 e Sim", "Preço: ": 4.9 },
+							{ "Seleções: ": "X2 e Não", "Preço: ": 5.5 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (1.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 1.5", "Preço: ": 1.65 },
+							{ "Seleções: ": "12 e Menos de 1.5", "Preço: ": 4.15 },
+							{ "Seleções: ": "1X e Mais de 1.5", "Preço: ": 1.47 },
+							{ "Seleções: ": "1X e Menos de 1.5", "Preço: ": 3.65 },
+							{ "Seleções: ": "X2 e Mais de 1.5", "Preço: ": 4.3 },
+							{ "Seleções: ": "X2 e Menos de 1.5", "Preço: ": 6.1 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 2.5", "Preço: ": 2.18 },
+							{ "Seleções: ": "12 e Menos de 2.5", "Preço: ": 2.5 },
+							{ "Seleções: ": "1X e Mais de 2.5", "Preço: ": 2.27 },
+							{ "Seleções: ": "1X e Menos de 2.5", "Preço: ": 1.95 },
+							{ "Seleções: ": "X2 e Mais de 2.5", "Preço: ": 9.5 },
+							{ "Seleções: ": "X2 e Menos de 2.5", "Preço: ": 3.55 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 3.5", "Preço: ": 4.05 },
+							{ "Seleções: ": "12 e Menos de 3.5", "Preço: ": 1.62 },
+							{ "Seleções: ": "1X e Mais de 3.5", "Preço: ": 3.8 },
+							{ "Seleções: ": "1X e Menos de 3.5", "Preço: ": 1.45 },
+							{ "Seleções: ": "X2 e Mais de 3.5", "Preço: ": 15.5 },
+							{ "Seleções: ": "X2 e Menos de 3.5", "Preço: ": 3.1 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (4.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 4.5", "Preço: ": 7.1 },
+							{ "Seleções: ": "12 e Menos de 4.5", "Preço: ": 1.39 },
+							{ "Seleções: ": "1X e Mais de 4.5", "Preço: ": 7.4 },
+							{ "Seleções: ": "1X e Menos de 4.5", "Preço: ": 1.24 },
+							{ "Seleções: ": "X2 e Mais de 4.5", "Preço: ": 40.0 },
+							{ "Seleções: ": "X2 e Menos de 4.5", "Preço: ": 2.7 },
+						],
+				},
+				{ "Mercado: ": "Handicap - Resultado Final", "Selecções: ": [] },
+				{
+					"Mercado: ": "Intervalo/Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1/1", "Preço: ": 2.07 },
+							{ "Seleções: ": "1/X", "Preço: ": 18.5 },
+							{ "Seleções: ": "1/2", "Preço: ": 80.0 },
+							{ "Seleções: ": "X/1", "Preço: ": 3.9 },
+							{ "Seleções: ": "X/X", "Preço: ": 5.5 },
+							{ "Seleções: ": "X/2", "Preço: ": 13.5 },
+							{ "Seleções: ": "2/1", "Preço: ": 27.0 },
+							{ "Seleções: ": "2/X", "Preço: ": 19.0 },
+							{ "Seleções: ": "2/2", "Preço: ": 11.5 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Correto",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 - 0", "Preço: ": 5.4 },
+							{ "Seleções: ": "2 - 0", "Preço: ": 5.8 },
+							{ "Seleções: ": "2 - 1", "Preço: ": 8.75 },
+							{ "Seleções: ": "3 - 0", "Preço: ": 9.0 },
+							{ "Seleções: ": "3 - 1", "Preço: ": 13.5 },
+							{ "Seleções: ": "3 - 2", "Preço: ": 37.0 },
+							{ "Seleções: ": "4 - 0", "Preço: ": 18.0 },
+							{ "Seleções: ": "4 - 1", "Preço: ": 27.0 },
+							{ "Seleções: ": "4 - 2", "Preço: ": 75.0 },
+							{ "Seleções: ": "4 - 3", "Preço: ": 300.0 },
+							{ "Seleções: ": "5 - 0", "Preço: ": 45.0 },
+							{ "Seleções: ": "5 - 1", "Preço: ": 65.0 },
+							{ "Seleções: ": "5 - 2", "Preço: ": 200.0 },
+							{ "Seleções: ": "5 - 3", "Preço: ": 800.0 },
+							{ "Seleções: ": "6 - 0", "Preço: ": 120.0 },
+							{ "Seleções: ": "6 - 1", "Preço: ": 200.0 },
+							{ "Seleções: ": "6 - 2", "Preço: ": 500.0 },
+							{ "Seleções: ": "7 - 0", "Preço: ": 400.0 },
+							{ "Seleções: ": "7 - 1", "Preço: ": 600.0 },
+							{ "Seleções: ": "0 - 0", "Preço: ": 6.9 },
+							{ "Seleções: ": "1 - 1", "Preço: ": 8.25 },
+							{ "Seleções: ": "2 - 2", "Preço: ": 25.0 },
+							{ "Seleções: ": "3 - 3", "Preço: ": 150.0 },
+							{ "Seleções: ": "0 - 1", "Preço: ": 14.5 },
+							{ "Seleções: ": "0 - 2", "Preço: ": 40.0 },
+							{ "Seleções: ": "1 - 2", "Preço: ": 23.0 },
+							{ "Seleções: ": "0 - 3", "Preço: ": 175.0 },
+							{ "Seleções: ": "1 - 3", "Preço: ": 100.0 },
+							{ "Seleções: ": "2 - 3", "Preço: ": 100.0 },
+							{ "Seleções: ": "0 - 4", "Preço: ": 900.0 },
+							{ "Seleções: ": "1 - 4", "Preço: ": 500.0 },
+							{ "Seleções: ": "2 - 4", "Preço: ": 600.0 },
+							{ "Seleções: ": "3 - 4", "Preço: ": 800.0 },
+						],
+				},
+				{
+					"Mercado: ": "Próximo gol (Gol 1)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Vasco da Gama", "Preço: ": 1.39 },
+							{ "Seleções: ": "Sem Gol", "Preço: ": 6.9 },
+							{ "Seleções: ": "Volta Redonda", "Preço: ": 3.65 },
+						],
+				},
+				{
+					"Mercado: ": "Vasco da Gama - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.15 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 4.9 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.7 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 2.07 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 3.05 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.35 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 5.9 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.11 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 10.0 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.03 },
+						],
+				},
+				{
+					"Mercado: ": "Volta Redonda - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.98 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 1.78 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 5.5 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.13 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 11.5 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.02 },
+						],
+				},
+				{ "Mercado: ": "Marcar em qualquer momento", "Selecções: ": [] },
+				{ "Mercado: ": "Marcar 2 ou mais gols", "Selecções: ": [] },
+				{
+					"Mercado: ": "Escanteios Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 9.5", "Preço: ": 1.9 },
+							{ "Seleções: ": "Menos de 9.5", "Preço: ": 1.8 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Cartões Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 5.5", "Preço: ": 2.15 },
+							{ "Seleções: ": "Menos de 5.5", "Preço: ": 1.62 },
+						],
+				},
+			],
+	},
+	{
+		"Jogo": "Sampaio Correa RJ - Bangu",
+		"Data": 1738522800000,
+		"HomeTeam": "Não Encontrado",
+		"AwayTeam": "Não Encontrado",
+		"Mercados":
+			[
+				{
+					"Mercado: ": "Resultado Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1", "Preço: ": 1.75 },
+							{ "Seleções: ": "X", "Preço: ": 3.45 },
+							{ "Seleções: ": "2", "Preço: ": 4.65 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 2.1 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.65 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 2.0 },
+							{ "Seleções: ": "Não", "Preço: ": 1.72 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam ou Mais de 2.5",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 1.7 },
+							{
+								"Seleções: ": "Não (2-0, 1-0, 0-0, 0-1 ou 0-2)",
+								"Preço: ": 2.05,
+							},
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1X", "Preço: ": 1.2 },
+							{ "Seleções: ": "12", "Preço: ": 1.27 },
+							{ "Seleções: ": "X2", "Preço: ": 2.07 },
+						],
+				},
+				{
+					"Mercado: ": "Empate Anula",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sampaio Correa RJ", "Preço: ": 1.29 },
+							{ "Seleções: ": "Bangu", "Preço: ": 3.25 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos (alternativas)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.08 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 6.6 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.37 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 2.85 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 3.6 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.25 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 6.3 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.09 },
+							{ "Seleções: ": "Mais de 5.5", "Preço: ": 9.5 },
+							{ "Seleções: ": "Menos de 5.5", "Preço: ": 1.025 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado do 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sampaio Correa RJ", "Preço: ": 2.32 },
+							{ "Seleções: ": "Empate", "Preço: ": 2.1 },
+							{ "Seleções: ": "Bangu", "Preço: ": 4.9 },
+						],
+				},
+				{
+					"Mercado: ": "Total de gols Mais/Menos - 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.44 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 2.62 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 2.85 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.37 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 6.3 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.09 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 10.25 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.015 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 2.5", "Preço: ": 2.95 },
+							{ "Seleções: ": "1 e Menos de 2.5", "Preço: ": 3.45 },
+							{ "Seleções: ": "2 e Mais de 2.5", "Preço: ": 8.5 },
+							{ "Seleções: ": "2 e Menos de 2.5", "Preço: ": 8.0 },
+							{ "Seleções: ": "X e Mais de 2.5", "Preço: ": 15.5 },
+							{ "Seleções: ": "X e Menos de 2.5", "Preço: ": 4.05 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 3.5", "Preço: ": 5.6 },
+							{ "Seleções: ": "1 e Menos de 3.5", "Preço: ": 2.25 },
+							{ "Seleções: ": "2 e Mais de 3.5", "Preço: ": 20.0 },
+							{ "Seleções: ": "2 e Menos de 3.5", "Preço: ": 5.3 },
+							{ "Seleções: ": "X e Mais de 3.5", "Preço: ": 15.0 },
+							{ "Seleções: ": "X e Menos de 3.5", "Preço: ": 4.05 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sampaio Correa RJ / Sim", "Preço: ": 4.1 },
+							{ "Seleções: ": "Sampaio Correa RJ / Não", "Preço: ": 2.65 },
+							{ "Seleções: ": "Empate / Sim", "Preço: ": 4.9 },
+							{ "Seleções: ": "Empate / Não", "Preço: ": 6.6 },
+							{ "Seleções: ": "Bangu / Sim", "Preço: ": 9.5 },
+							{ "Seleções: ": "Bangu / Não", "Preço: ": 7.4 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 2.5", "Preço: ": 2.65 },
+							{ "Seleções: ": "Não e Mais de 2.5", "Preço: ": 8.0 },
+							{ "Seleções: ": "Sim e Menos de 2.5", "Preço: ": 6.7 },
+							{ "Seleções: ": "Não e Menos de 2.5", "Preço: ": 2.1 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 3.5", "Preço: ": 4.35 },
+							{ "Seleções: ": "Não e Mais de 3.5", "Preço: ": 21.0 },
+							{ "Seleções: ": "Sim e Menos de 3.5", "Preço: ": 3.25 },
+							{ "Seleções: ": "Não e Menos de 3.5", "Preço: ": 1.83 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Sim", "Preço: ": 3.1 },
+							{ "Seleções: ": "12 e Não", "Preço: ": 2.07 },
+							{ "Seleções: ": "1X e Sim", "Preço: ": 2.45 },
+							{ "Seleções: ": "1X e Não", "Preço: ": 2.18 },
+							{ "Seleções: ": "X2 e Sim", "Preço: ": 3.55 },
+							{ "Seleções: ": "X2 e Não", "Preço: ": 4.4 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (1.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 1.5", "Preço: ": 1.78 },
+							{ "Seleções: ": "12 e Menos de 1.5", "Preço: ": 4.1 },
+							{ "Seleções: ": "1X e Mais de 1.5", "Preço: ": 1.65 },
+							{ "Seleções: ": "1X e Menos de 1.5", "Preço: ": 3.75 },
+							{ "Seleções: ": "X2 e Mais de 1.5", "Preço: ": 3.05 },
+							{ "Seleções: ": "X2 e Menos de 1.5", "Preço: ": 5.2 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 2.5", "Preço: ": 2.35 },
+							{ "Seleções: ": "12 e Menos de 2.5", "Preço: ": 2.6 },
+							{ "Seleções: ": "1X e Mais de 2.5", "Preço: ": 2.62 },
+							{ "Seleções: ": "1X e Menos de 2.5", "Preço: ": 2.02 },
+							{ "Seleções: ": "X2 e Mais de 2.5", "Preço: ": 6.0 },
+							{ "Seleções: ": "X2 e Menos de 2.5", "Preço: ": 2.9 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 3.5", "Preço: ": 4.65 },
+							{ "Seleções: ": "12 e Menos de 3.5", "Preço: ": 1.7 },
+							{ "Seleções: ": "1X e Mais de 3.5", "Preço: ": 4.35 },
+							{ "Seleções: ": "1X e Menos de 3.5", "Preço: ": 1.55 },
+							{ "Seleções: ": "X2 e Mais de 3.5", "Preço: ": 9.5 },
+							{ "Seleções: ": "X2 e Menos de 3.5", "Preço: ": 2.42 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (4.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 4.5", "Preço: ": 7.9 },
+							{ "Seleções: ": "12 e Menos de 4.5", "Preço: ": 1.45 },
+							{ "Seleções: ": "1X e Mais de 4.5", "Preço: ": 9.0 },
+							{ "Seleções: ": "1X e Menos de 4.5", "Preço: ": 1.31 },
+							{ "Seleções: ": "X2 e Mais de 4.5", "Preço: ": 24.0 },
+							{ "Seleções: ": "X2 e Menos de 4.5", "Preço: ": 2.12 },
+						],
+				},
+				{ "Mercado: ": "Handicap - Resultado Final", "Selecções: ": [] },
+				{
+					"Mercado: ": "Intervalo/Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1/1", "Preço: ": 2.62 },
+							{ "Seleções: ": "1/X", "Preço: ": 15.5 },
+							{ "Seleções: ": "1/2", "Preço: ": 55.0 },
+							{ "Seleções: ": "X/1", "Preço: ": 4.35 },
+							{ "Seleções: ": "X/X", "Preço: ": 4.8 },
+							{ "Seleções: ": "X/2", "Preço: ": 9.5 },
+							{ "Seleções: ": "2/1", "Preço: ": 27.0 },
+							{ "Seleções: ": "2/X", "Preço: ": 15.5 },
+							{ "Seleções: ": "2/2", "Preço: ": 7.6 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Correto",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 - 0", "Preço: ": 5.9 },
+							{ "Seleções: ": "2 - 0", "Preço: ": 7.3 },
+							{ "Seleções: ": "2 - 1", "Preço: ": 8.5 },
+							{ "Seleções: ": "3 - 0", "Preço: ": 13.0 },
+							{ "Seleções: ": "3 - 1", "Preço: ": 15.0 },
+							{ "Seleções: ": "3 - 2", "Preço: ": 32.0 },
+							{ "Seleções: ": "4 - 0", "Preço: ": 30.0 },
+							{ "Seleções: ": "4 - 1", "Preço: ": 35.0 },
+							{ "Seleções: ": "4 - 2", "Preço: ": 75.0 },
+							{ "Seleções: ": "4 - 3", "Preço: ": 250.0 },
+							{ "Seleções: ": "5 - 0", "Preço: ": 90.0 },
+							{ "Seleções: ": "5 - 1", "Preço: ": 100.0 },
+							{ "Seleções: ": "5 - 2", "Preço: ": 200.0 },
+							{ "Seleções: ": "5 - 3", "Preço: ": 700.0 },
+							{ "Seleções: ": "6 - 0", "Preço: ": 300.0 },
+							{ "Seleções: ": "6 - 1", "Preço: ": 350.0 },
+							{ "Seleções: ": "6 - 2", "Preço: ": 800.0 },
+							{ "Seleções: ": "0 - 0", "Preço: ": 6.6 },
+							{ "Seleções: ": "1 - 1", "Preço: ": 6.7 },
+							{ "Seleções: ": "2 - 2", "Preço: ": 18.0 },
+							{ "Seleções: ": "3 - 3", "Preço: ": 100.0 },
+							{ "Seleções: ": "4 - 4", "Preço: ": 900.0 },
+							{ "Seleções: ": "0 - 1", "Preço: ": 11.0 },
+							{ "Seleções: ": "0 - 2", "Preço: ": 25.0 },
+							{ "Seleções: ": "1 - 2", "Preço: ": 15.5 },
+							{ "Seleções: ": "0 - 3", "Preço: ": 80.0 },
+							{ "Seleções: ": "1 - 3", "Preço: ": 50.0 },
+							{ "Seleções: ": "2 - 3", "Preço: ": 60.0 },
+							{ "Seleções: ": "0 - 4", "Preço: ": 350.0 },
+							{ "Seleções: ": "1 - 4", "Preço: ": 200.0 },
+							{ "Seleções: ": "2 - 4", "Preço: ": 250.0 },
+							{ "Seleções: ": "3 - 4", "Preço: ": 400.0 },
+						],
+				},
+				{
+					"Mercado: ": "Próximo gol (Gol 1)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sampaio Correa RJ", "Preço: ": 1.6 },
+							{ "Seleções: ": "Sem Gol", "Preço: ": 6.6 },
+							{ "Seleções: ": "Bangu", "Preço: ": 2.8 },
+						],
+				},
+				{
+					"Mercado: ": "Sampaio Correa RJ - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.21 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 4.05 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.98 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.78 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 3.9 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.23 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 7.7 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.06 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 11.75 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.015 },
+						],
+				},
+				{
+					"Mercado: ": "Bangu - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.65 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 2.15 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 4.0 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.22 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 9.25 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.04 },
+						],
+				},
+				{ "Mercado: ": "Marcar em qualquer momento", "Selecções: ": [] },
+				{ "Mercado: ": "Marcar 2 ou mais gols", "Selecções: ": [] },
+				{
+					"Mercado: ": "Escanteios Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 9.5", "Preço: ": 2.0 },
+							{ "Seleções: ": "Menos de 9.5", "Preço: ": 1.72 },
+						],
+				},
+			],
+	},
+	{
+		"Jogo": "Portuguesa-RJ - Nova Iguaçu",
+		"Data": 1738534500000,
+		"HomeTeam": "Não Encontrado",
+		"AwayTeam": "Não Encontrado",
+		"Mercados":
+			[
+				{
+					"Mercado: ": "Resultado Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1", "Preço: ": 2.57 },
+							{ "Seleções: ": "X", "Preço: ": 2.75 },
+							{ "Seleções: ": "2", "Preço: ": 3.05 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 2.22 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.6 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 1.82 },
+							{ "Seleções: ": "Não", "Preço: ": 1.9 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam ou Mais de 2.5",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 1.65 },
+							{
+								"Seleções: ": "Não (2-0, 1-0, 0-0, 0-1 ou 0-2)",
+								"Preço: ": 2.1,
+							},
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1X", "Preço: ": 1.38 },
+							{ "Seleções: ": "12", "Preço: ": 1.4 },
+							{ "Seleções: ": "X2", "Preço: ": 1.5 },
+						],
+				},
+				{
+					"Mercado: ": "Empate Anula",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Portuguesa-RJ", "Preço: ": 1.7 },
+							{ "Seleções: ": "Nova Iguaçu", "Preço: ": 2.02 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos (alternativas)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.1 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 5.8 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.42 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 2.67 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 3.8 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.23 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 6.6 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.08 },
+							{ "Seleções: ": "Mais de 5.5", "Preço: ": 9.75 },
+							{ "Seleções: ": "Menos de 5.5", "Preço: ": 1.025 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado do 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Portuguesa-RJ", "Preço: ": 3.15 },
+							{ "Seleções: ": "Empate", "Preço: ": 1.93 },
+							{ "Seleções: ": "Nova Iguaçu", "Preço: ": 3.65 },
+						],
+				},
+				{
+					"Mercado: ": "Total de gols Mais/Menos - 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.47 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 2.5 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 2.85 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.37 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 6.2 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.09 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 10.25 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.02 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 2.5", "Preço: ": 4.5 },
+							{ "Seleções: ": "1 e Menos de 2.5", "Preço: ": 4.9 },
+							{ "Seleções: ": "2 e Mais de 2.5", "Preço: ": 5.5 },
+							{ "Seleções: ": "2 e Menos de 2.5", "Preço: ": 5.6 },
+							{ "Seleções: ": "X e Mais de 2.5", "Preço: ": 11.5 },
+							{ "Seleções: ": "X e Menos de 2.5", "Preço: ": 3.25 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 3.5", "Preço: ": 9.25 },
+							{ "Seleções: ": "1 e Menos de 3.5", "Preço: ": 3.15 },
+							{ "Seleções: ": "2 e Mais de 3.5", "Preço: ": 12.5 },
+							{ "Seleções: ": "2 e Menos de 3.5", "Preço: ": 3.65 },
+							{ "Seleções: ": "X e Mais de 3.5", "Preço: ": 11.25 },
+							{ "Seleções: ": "X e Menos de 3.5", "Preço: ": 3.25 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Portuguesa-RJ / Sim", "Preço: ": 5.3 },
+							{ "Seleções: ": "Portuguesa-RJ / Não", "Preço: ": 4.2 },
+							{ "Seleções: ": "Empate / Sim", "Preço: ": 3.9 },
+							{ "Seleções: ": "Empate / Não", "Preço: ": 5.8 },
+							{ "Seleções: ": "Nova Iguaçu / Sim", "Preço: ": 6.4 },
+							{ "Seleções: ": "Nova Iguaçu / Não", "Preço: ": 5.0 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 2.5", "Preço: ": 2.52 },
+							{ "Seleções: ": "Não e Mais de 2.5", "Preço: ": 14.0 },
+							{ "Seleções: ": "Sim e Menos de 2.5", "Preço: ": 5.3 },
+							{ "Seleções: ": "Não e Menos de 2.5", "Preço: ": 2.1 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 3.5", "Preço: ": 4.2 },
+							{ "Seleções: ": "Não e Mais de 3.5", "Preço: ": 45.0 },
+							{ "Seleções: ": "Sim e Menos de 3.5", "Preço: ": 2.8 },
+							{ "Seleções: ": "Não e Menos de 3.5", "Preço: ": 1.95 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Sim", "Preço: ": 3.15 },
+							{ "Seleções: ": "12 e Não", "Preço: ": 2.47 },
+							{ "Seleções: ": "1X e Sim", "Preço: ": 2.42 },
+							{ "Seleções: ": "1X e Não", "Preço: ": 2.87 },
+							{ "Seleções: ": "X2 e Sim", "Preço: ": 2.6 },
+							{ "Seleções: ": "X2 e Não", "Preço: ": 3.2 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (1.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 1.5", "Preço: ": 2.07 },
+							{ "Seleções: ": "12 e Menos de 1.5", "Preço: ": 4.1 },
+							{ "Seleções: ": "1X e Mais de 1.5", "Preço: ": 1.98 },
+							{ "Seleções: ": "1X e Menos de 1.5", "Preço: ": 3.85 },
+							{ "Seleções: ": "X2 e Mais de 1.5", "Preço: ": 2.18 },
+							{ "Seleções: ": "X2 e Menos de 1.5", "Preço: ": 4.05 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 2.5", "Preço: ": 2.67 },
+							{ "Seleções: ": "12 e Menos de 2.5", "Preço: ": 2.8 },
+							{ "Seleções: ": "1X e Mais de 2.5", "Preço: ": 3.45 },
+							{ "Seleções: ": "1X e Menos de 2.5", "Preço: ": 2.1 },
+							{ "Seleções: ": "X2 e Mais de 2.5", "Preço: ": 4.0 },
+							{ "Seleções: ": "X2 e Menos de 2.5", "Preço: ": 2.2 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 3.5", "Preço: ": 5.7 },
+							{ "Seleções: ": "12 e Menos de 3.5", "Preço: ": 1.8 },
+							{ "Seleções: ": "1X e Mais de 3.5", "Preço: ": 5.5 },
+							{ "Seleções: ": "1X e Menos de 3.5", "Preço: ": 1.72 },
+							{ "Seleções: ": "X2 e Mais de 3.5", "Preço: ": 6.3 },
+							{ "Seleções: ": "X2 e Menos de 3.5", "Preço: ": 1.83 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (4.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 4.5", "Preço: ": 9.0 },
+							{ "Seleções: ": "12 e Menos de 4.5", "Preço: ": 1.6 },
+							{ "Seleções: ": "1X e Mais de 4.5", "Preço: ": 12.5 },
+							{ "Seleções: ": "1X e Menos de 4.5", "Preço: ": 1.47 },
+							{ "Seleções: ": "X2 e Mais de 4.5", "Preço: ": 15.0 },
+							{ "Seleções: ": "X2 e Menos de 4.5", "Preço: ": 1.57 },
+						],
+				},
+				{ "Mercado: ": "Handicap - Resultado Final", "Selecções: ": [] },
+				{
+					"Mercado: ": "Intervalo/Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1/1", "Preço: ": 4.15 },
+							{ "Seleções: ": "1/X", "Preço: ": 12.5 },
+							{ "Seleções: ": "1/2", "Preço: ": 37.0 },
+							{ "Seleções: ": "X/1", "Preço: ": 5.7 },
+							{ "Seleções: ": "X/X", "Preço: ": 3.85 },
+							{ "Seleções: ": "X/2", "Preço: ": 6.6 },
+							{ "Seleções: ": "2/1", "Preço: ": 35.0 },
+							{ "Seleções: ": "2/X", "Preço: ": 13.0 },
+							{ "Seleções: ": "2/2", "Preço: ": 5.0 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Correto",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 - 0", "Preço: ": 7.3 },
+							{ "Seleções: ": "2 - 0", "Preço: ": 12.5 },
+							{ "Seleções: ": "2 - 1", "Preço: ": 9.5 },
+							{ "Seleções: ": "3 - 0", "Preço: ": 30.0 },
+							{ "Seleções: ": "3 - 1", "Preço: ": 23.0 },
+							{ "Seleções: ": "3 - 2", "Preço: ": 32.0 },
+							{ "Seleções: ": "4 - 0", "Preço: ": 90.0 },
+							{ "Seleções: ": "4 - 1", "Preço: ": 70.0 },
+							{ "Seleções: ": "4 - 2", "Preço: ": 100.0 },
+							{ "Seleções: ": "4 - 3", "Preço: ": 200.0 },
+							{ "Seleções: ": "5 - 0", "Preço: ": 350.0 },
+							{ "Seleções: ": "5 - 1", "Preço: ": 300.0 },
+							{ "Seleções: ": "5 - 2", "Preço: ": 400.0 },
+							{ "Seleções: ": "5 - 3", "Preço: ": 800.0 },
+							{ "Seleções: ": "0 - 0", "Preço: ": 5.8 },
+							{ "Seleções: ": "1 - 1", "Preço: ": 5.3 },
+							{ "Seleções: ": "2 - 2", "Preço: ": 13.5 },
+							{ "Seleções: ": "3 - 3", "Preço: ": 70.0 },
+							{ "Seleções: ": "4 - 4", "Preço: ": 600.0 },
+							{ "Seleções: ": "0 - 1", "Preço: ": 8.0 },
+							{ "Seleções: ": "0 - 2", "Preço: ": 15.5 },
+							{ "Seleções: ": "1 - 2", "Preço: ": 10.75 },
+							{ "Seleções: ": "0 - 3", "Preço: ": 40.0 },
+							{ "Seleções: ": "1 - 3", "Preço: ": 30.0 },
+							{ "Seleções: ": "2 - 3", "Preço: ": 37.0 },
+							{ "Seleções: ": "0 - 4", "Preço: ": 150.0 },
+							{ "Seleções: ": "1 - 4", "Preço: ": 110.0 },
+							{ "Seleções: ": "2 - 4", "Preço: ": 150.0 },
+							{ "Seleções: ": "3 - 4", "Preço: ": 250.0 },
+							{ "Seleções: ": "0 - 5", "Preço: ": 600.0 },
+							{ "Seleções: ": "1 - 5", "Preço: ": 450.0 },
+							{ "Seleções: ": "2 - 5", "Preço: ": 600.0 },
+						],
+				},
+				{
+					"Mercado: ": "Próximo gol (Gol 1)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Portuguesa-RJ", "Preço: ": 1.95 },
+							{ "Seleções: ": "Sem Gol", "Preço: ": 5.8 },
+							{ "Seleções: ": "Nova Iguaçu", "Preço: ": 2.22 },
+						],
+				},
+				{
+					"Mercado: ": "Portuguesa-RJ - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.34 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 3.05 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 2.6 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.45 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 5.9 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.11 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 10.75 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.025 },
+						],
+				},
+				{
+					"Mercado: ": "Nova Iguaçu - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.4 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 2.8 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 2.95 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.37 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 6.9 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.08 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 12.0 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.015 },
+						],
+				},
+				{ "Mercado: ": "Marcar em qualquer momento", "Selecções: ": [] },
+				{ "Mercado: ": "Marcar 2 ou mais gols", "Selecções: ": [] },
+				{
+					"Mercado: ": "Escanteios Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 8.5", "Preço: ": 1.65 },
+							{ "Seleções: ": "Menos de 8.5", "Preço: ": 2.1 },
+						],
+				},
+			],
+	},
+	{
+		"Jogo": "Fluminense - Boavista-RJ",
+		"Data": 1738540800000,
+		"HomeTeam": "Não Encontrado",
+		"AwayTeam": "Não Encontrado",
+		"Mercados":
+			[
+				{
+					"Mercado: ": "Resultado Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1", "Preço: ": 1.28 },
+							{ "Seleções: ": "X", "Preço: ": 5.1 },
+							{ "Seleções: ": "2", "Preço: ": 10.0 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 1.7 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 2.05 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 2.22 },
+							{ "Seleções: ": "Não", "Preço: ": 1.6 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam ou Mais de 2.5",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 1.5 },
+							{
+								"Seleções: ": "Não (2-0, 1-0, 0-0, 0-1 ou 0-2)",
+								"Preço: ": 2.42,
+							},
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1X", "Preço: ": 1.06 },
+							{ "Seleções: ": "12", "Preço: ": 1.14 },
+							{ "Seleções: ": "X2", "Preço: ": 3.7 },
+						],
+				},
+				{
+					"Mercado: ": "Empate Anula",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Fluminense", "Preço: ": 1.08 },
+							{ "Seleções: ": "Boavista-RJ", "Preço: ": 6.6 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos (alternativas)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.04 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 8.25 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.23 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 3.75 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 2.65 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.42 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 4.45 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.17 },
+							{ "Seleções: ": "Mais de 5.5", "Preço: ": 7.3 },
+							{ "Seleções: ": "Menos de 5.5", "Preço: ": 1.06 },
+							{ "Seleções: ": "Mais de 6.5", "Preço: ": 10.25 },
+							{ "Seleções: ": "Menos de 6.5", "Preço: ": 1.02 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado do 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Fluminense", "Preço: ": 1.7 },
+							{ "Seleções: ": "Empate", "Preço: ": 2.47 },
+							{ "Seleções: ": "Boavista-RJ", "Preço: ": 8.25 },
+						],
+				},
+				{
+					"Mercado: ": "Total de gols Mais/Menos - 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.33 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 3.05 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 2.42 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.5 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 5.2 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.13 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 9.25 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.03 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 2.5", "Preço: ": 1.88 },
+							{ "Seleções: ": "1 e Menos de 2.5", "Preço: ": 3.15 },
+							{ "Seleções: ": "2 e Mais de 2.5", "Preço: ": 19.0 },
+							{ "Seleções: ": "2 e Menos de 2.5", "Preço: ": 17.0 },
+							{ "Seleções: ": "X e Mais de 2.5", "Preço: ": 21.0 },
+							{ "Seleções: ": "X e Menos de 2.5", "Preço: ": 5.9 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 3.5", "Preço: ": 3.0 },
+							{ "Seleções: ": "1 e Menos de 3.5", "Preço: ": 1.93 },
+							{ "Seleções: ": "2 e Mais de 3.5", "Preço: ": 50.0 },
+							{ "Seleções: ": "2 e Menos de 3.5", "Preço: ": 11.25 },
+							{ "Seleções: ": "X e Mais de 3.5", "Preço: ": 21.0 },
+							{ "Seleções: ": "X e Menos de 3.5", "Preço: ": 5.9 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Fluminense / Sim", "Preço: ": 3.2 },
+							{ "Seleções: ": "Fluminense / Não", "Preço: ": 1.87 },
+							{ "Seleções: ": "Empate / Sim", "Preço: ": 7.1 },
+							{ "Seleções: ": "Empate / Não", "Preço: ": 8.25 },
+							{ "Seleções: ": "Boavista-RJ / Sim", "Preço: ": 20.0 },
+							{ "Seleções: ": "Boavista-RJ / Não", "Preço: ": 16.0 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 2.5", "Preço: ": 2.72 },
+							{ "Seleções: ": "Não e Mais de 2.5", "Preço: ": 3.85 },
+							{ "Seleções: ": "Sim e Menos de 2.5", "Preço: ": 10.25 },
+							{ "Seleções: ": "Não e Menos de 2.5", "Preço: ": 2.47 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 3.5", "Preço: ": 3.9 },
+							{ "Seleções: ": "Não e Mais de 3.5", "Preço: ": 7.3 },
+							{ "Seleções: ": "Sim e Menos de 3.5", "Preço: ": 4.55 },
+							{ "Seleções: ": "Não e Menos de 3.5", "Preço: ": 1.93 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Sim", "Preço: ": 3.0 },
+							{ "Seleções: ": "12 e Não", "Preço: ": 1.75 },
+							{ "Seleções: ": "1X e Sim", "Preço: ": 2.45 },
+							{ "Seleções: ": "1X e Não", "Preço: ": 1.72 },
+							{ "Seleções: ": "X2 e Sim", "Preço: ": 5.9 },
+							{ "Seleções: ": "X2 e Não", "Preço: ": 8.5 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (1.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 1.5", "Preço: ": 1.4 },
+							{ "Seleções: ": "12 e Menos de 1.5", "Preço: ": 5.1 },
+							{ "Seleções: ": "1X e Mais de 1.5", "Preço: ": 1.3 },
+							{ "Seleções: ": "1X e Menos de 1.5", "Preço: ": 4.5 },
+							{ "Seleções: ": "X2 e Mais de 1.5", "Preço: ": 5.3 },
+							{ "Seleções: ": "X2 e Menos de 1.5", "Preço: ": 8.75 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 2.5", "Preço: ": 1.78 },
+							{ "Seleções: ": "12 e Menos de 2.5", "Preço: ": 2.85 },
+							{ "Seleções: ": "1X e Mais de 2.5", "Preço: ": 1.8 },
+							{ "Seleções: ": "1X e Menos de 2.5", "Preço: ": 2.27 },
+							{ "Seleções: ": "X2 e Mais de 2.5", "Preço: ": 11.5 },
+							{ "Seleções: ": "X2 e Menos de 2.5", "Preço: ": 4.85 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 3.5", "Preço: ": 2.95 },
+							{ "Seleções: ": "12 e Menos de 3.5", "Preço: ": 1.75 },
+							{ "Seleções: ": "1X e Mais de 3.5", "Preço: ": 2.77 },
+							{ "Seleções: ": "1X e Menos de 3.5", "Preço: ": 1.57 },
+							{ "Seleções: ": "X2 e Mais de 3.5", "Preço: ": 17.0 },
+							{ "Seleções: ": "X2 e Menos de 3.5", "Preço: ": 4.3 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (4.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 4.5", "Preço: ": 4.85 },
+							{ "Seleções: ": "12 e Menos de 4.5", "Preço: ": 1.42 },
+							{ "Seleções: ": "1X e Mais de 4.5", "Preço: ": 4.9 },
+							{ "Seleções: ": "1X e Menos de 4.5", "Preço: ": 1.27 },
+							{ "Seleções: ": "X2 e Mais de 4.5", "Preço: ": 50.0 },
+							{ "Seleções: ": "X2 e Menos de 4.5", "Preço: ": 3.65 },
+						],
+				},
+				{ "Mercado: ": "Handicap - Resultado Final", "Selecções: ": [] },
+				{
+					"Mercado: ": "Intervalo/Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1/1", "Preço: ": 1.78 },
+							{ "Seleções: ": "1/X", "Preço: ": 21.0 },
+							{ "Seleções: ": "1/2", "Preço: ": 100.0 },
+							{ "Seleções: ": "X/1", "Preço: ": 3.65 },
+							{ "Seleções: ": "X/X", "Preço: ": 6.9 },
+							{ "Seleções: ": "X/2", "Preço: ": 18.5 },
+							{ "Seleções: ": "2/1", "Preço: ": 23.0 },
+							{ "Seleções: ": "2/X", "Preço: ": 22.0 },
+							{ "Seleções: ": "2/2", "Preço: ": 17.5 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Correto",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 - 0", "Preço: ": 6.5 },
+							{ "Seleções: ": "2 - 0", "Preço: ": 5.7 },
+							{ "Seleções: ": "2 - 1", "Preço: ": 9.0 },
+							{ "Seleções: ": "3 - 0", "Preço: ": 7.3 },
+							{ "Seleções: ": "3 - 1", "Preço: ": 11.5 },
+							{ "Seleções: ": "3 - 2", "Preço: ": 35.0 },
+							{ "Seleções: ": "4 - 0", "Preço: ": 12.0 },
+							{ "Seleções: ": "4 - 1", "Preço: ": 19.0 },
+							{ "Seleções: ": "4 - 2", "Preço: ": 55.0 },
+							{ "Seleções: ": "4 - 3", "Preço: ": 250.0 },
+							{ "Seleções: ": "5 - 0", "Preço: ": 24.0 },
+							{ "Seleções: ": "5 - 1", "Preço: ": 40.0 },
+							{ "Seleções: ": "5 - 2", "Preço: ": 110.0 },
+							{ "Seleções: ": "5 - 3", "Preço: ": 500.0 },
+							{ "Seleções: ": "6 - 0", "Preço: ": 60.0 },
+							{ "Seleções: ": "6 - 1", "Preço: ": 90.0 },
+							{ "Seleções: ": "6 - 2", "Preço: ": 300.0 },
+							{ "Seleções: ": "7 - 0", "Preço: ": 175.0 },
+							{ "Seleções: ": "7 - 1", "Preço: ": 250.0 },
+							{ "Seleções: ": "7 - 2", "Preço: ": 800.0 },
+							{ "Seleções: ": "8 - 0", "Preço: ": 500.0 },
+							{ "Seleções: ": "8 - 1", "Preço: ": 800.0 },
+							{ "Seleções: ": "0 - 0", "Preço: ": 8.25 },
+							{ "Seleções: ": "1 - 1", "Preço: ": 10.25 },
+							{ "Seleções: ": "2 - 2", "Preço: ": 27.0 },
+							{ "Seleções: ": "3 - 3", "Preço: ": 150.0 },
+							{ "Seleções: ": "0 - 1", "Preço: ": 23.0 },
+							{ "Seleções: ": "0 - 2", "Preço: ": 70.0 },
+							{ "Seleções: ": "1 - 2", "Preço: ": 32.0 },
+							{ "Seleções: ": "0 - 3", "Preço: ": 300.0 },
+							{ "Seleções: ": "1 - 3", "Preço: ": 150.0 },
+							{ "Seleções: ": "2 - 3", "Preço: ": 120.0 },
+							{ "Seleções: ": "1 - 4", "Preço: ": 800.0 },
+							{ "Seleções: ": "2 - 4", "Preço: ": 700.0 },
+							{ "Seleções: ": "3 - 4", "Preço: ": 900.0 },
+						],
+				},
+				{
+					"Mercado: ": "Próximo gol (Gol 1)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Fluminense", "Preço: ": 1.28 },
+							{ "Seleções: ": "Sem Gol", "Preço: ": 8.25 },
+							{ "Seleções: ": "Boavista-RJ", "Preço: ": 4.2 },
+						],
+				},
+				{
+					"Mercado: ": "Fluminense - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.09 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 6.7 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.42 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 2.72 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 2.25 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.6 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 4.05 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.22 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 7.3 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.07 },
+						],
+				},
+				{
+					"Mercado: ": "Boavista-RJ - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 2.05 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 1.72 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 5.8 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.11 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 11.75 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.015 },
+						],
+				},
+				{ "Mercado: ": "Marcar em qualquer momento", "Selecções: ": [] },
+				{ "Mercado: ": "Marcar 2 ou mais gols", "Selecções: ": [] },
+				{
+					"Mercado: ": "Escanteios Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 9.5", "Preço: ": 2.1 },
+							{ "Seleções: ": "Menos de 9.5", "Preço: ": 1.65 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Cartões Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 5.5", "Preço: ": 1.75 },
+							{ "Seleções: ": "Menos de 5.5", "Preço: ": 1.98 },
+						],
+				},
+			],
+	},
+	{
+		"Jogo": "Madureira - Marica RJ",
+		"Data": 1738611000000,
+		"HomeTeam": "Não Encontrado",
+		"AwayTeam": "Não Encontrado",
+		"Mercados":
+			[
+				{
+					"Mercado: ": "Resultado Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1", "Preço: ": 2.35 },
+							{ "Seleções: ": "X", "Preço: ": 3.1 },
+							{ "Seleções: ": "2", "Preço: ": 3.0 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 2.22 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.6 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 1.93 },
+							{ "Seleções: ": "Não", "Preço: ": 1.78 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam ou Mais de 2.5",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim", "Preço: ": 1.72 },
+							{
+								"Seleções: ": "Não (2-0, 1-0, 0-0, 0-1 ou 0-2)",
+								"Preço: ": 2.02,
+							},
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1X", "Preço: ": 1.39 },
+							{ "Seleções: ": "12", "Preço: ": 1.32 },
+							{ "Seleções: ": "X2", "Preço: ": 1.6 },
+						],
+				},
+				{
+					"Mercado: ": "Empate Anula",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Madureira", "Preço: ": 1.65 },
+							{ "Seleções: ": "Marica RJ", "Preço: ": 2.1 },
+						],
+				},
+				{
+					"Mercado: ": "Total de Gols Mais/Menos (alternativas)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.09 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 6.2 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 1.42 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 2.67 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 3.85 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.22 },
+							{ "Seleções: ": "Mais de 4.5", "Preço: ": 6.8 },
+							{ "Seleções: ": "Menos de 4.5", "Preço: ": 1.07 },
+							{ "Seleções: ": "Mais de 5.5", "Preço: ": 10.0 },
+							{ "Seleções: ": "Menos de 5.5", "Preço: ": 1.02 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado do 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Madureira", "Preço: ": 3.0 },
+							{ "Seleções: ": "Empate", "Preço: ": 2.0 },
+							{ "Seleções: ": "Marica RJ", "Preço: ": 3.6 },
+						],
+				},
+				{
+					"Mercado: ": "Total de gols Mais/Menos - 1° Tempo",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.47 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 2.5 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 3.05 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.33 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 6.7 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.07 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 10.75 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.015 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 2.5", "Preço: ": 4.25 },
+							{ "Seleções: ": "1 e Menos de 2.5", "Preço: ": 4.3 },
+							{ "Seleções: ": "2 e Mais de 2.5", "Preço: ": 5.5 },
+							{ "Seleções: ": "2 e Menos de 2.5", "Preço: ": 5.4 },
+							{ "Seleções: ": "X e Mais de 2.5", "Preço: ": 14.0 },
+							{ "Seleções: ": "X e Menos de 2.5", "Preço: ": 3.65 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final/Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 e Mais de 3.5", "Preço: ": 9.0 },
+							{ "Seleções: ": "1 e Menos de 3.5", "Preço: ": 2.85 },
+							{ "Seleções: ": "2 e Mais de 3.5", "Preço: ": 11.75 },
+							{ "Seleções: ": "2 e Menos de 3.5", "Preço: ": 3.55 },
+							{ "Seleções: ": "X e Mais de 3.5", "Preço: ": 13.5 },
+							{ "Seleções: ": "X e Menos de 3.5", "Preço: ": 3.65 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Final / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Madureira / Sim", "Preço: ": 5.3 },
+							{ "Seleções: ": "Madureira / Não", "Preço: ": 3.65 },
+							{ "Seleções: ": "Empate / Sim", "Preço: ": 4.45 },
+							{ "Seleções: ": "Empate / Não", "Preço: ": 6.2 },
+							{ "Seleções: ": "Marica RJ / Sim", "Preço: ": 6.4 },
+							{ "Seleções: ": "Marica RJ / Não", "Preço: ": 4.75 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 2.5", "Preço: ": 2.62 },
+							{ "Seleções: ": "Não e Mais de 2.5", "Preço: ": 11.5 },
+							{ "Seleções: ": "Sim e Menos de 2.5", "Preço: ": 6.0 },
+							{ "Seleções: ": "Não e Menos de 2.5", "Preço: ": 2.02 },
+						],
+				},
+				{
+					"Mercado: ": "Ambas equipes Marcam e Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Sim e Mais de 3.5", "Preço: ": 4.45 },
+							{ "Seleções: ": "Não e Mais de 3.5", "Preço: ": 35.0 },
+							{ "Seleções: ": "Sim e Menos de 3.5", "Preço: ": 3.0 },
+							{ "Seleções: ": "Não e Menos de 3.5", "Preço: ": 1.85 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla / Ambas equipes Marcam",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Sim", "Preço: ": 3.15 },
+							{ "Seleções: ": "12 e Não", "Preço: ": 2.22 },
+							{ "Seleções: ": "1X e Sim", "Preço: ": 2.62 },
+							{ "Seleções: ": "1X e Não", "Preço: ": 2.67 },
+							{ "Seleções: ": "X2 e Sim", "Preço: ": 2.85 },
+							{ "Seleções: ": "X2 e Não", "Preço: ": 3.25 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (1.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 1.5", "Preço: ": 1.95 },
+							{ "Seleções: ": "12 e Menos de 1.5", "Preço: ": 3.9 },
+							{ "Seleções: ": "1X e Mais de 1.5", "Preço: ": 2.0 },
+							{ "Seleções: ": "1X e Menos de 1.5", "Preço: ": 3.9 },
+							{ "Seleções: ": "X2 e Mais de 1.5", "Preço: ": 2.3 },
+							{ "Seleções: ": "X2 e Menos de 1.5", "Preço: ": 4.25 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (2.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 2.5", "Preço: ": 2.57 },
+							{ "Seleções: ": "12 e Menos de 2.5", "Preço: ": 2.6 },
+							{ "Seleções: ": "1X e Mais de 2.5", "Preço: ": 3.45 },
+							{ "Seleções: ": "1X e Menos de 2.5", "Preço: ": 2.12 },
+							{ "Seleções: ": "X2 e Mais de 2.5", "Preço: ": 4.2 },
+							{ "Seleções: ": "X2 e Menos de 2.5", "Preço: ": 2.35 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (3.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 3.5", "Preço: ": 5.5 },
+							{ "Seleções: ": "12 e Menos de 3.5", "Preço: ": 1.7 },
+							{ "Seleções: ": "1X e Mais de 3.5", "Preço: ": 5.8 },
+							{ "Seleções: ": "1X e Menos de 3.5", "Preço: ": 1.7 },
+							{ "Seleções: ": "X2 e Mais de 3.5", "Preço: ": 6.8 },
+							{ "Seleções: ": "X2 e Menos de 3.5", "Preço: ": 1.93 },
+						],
+				},
+				{
+					"Mercado: ": "Chance Dupla & Total de gols (4.5)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "12 e Mais de 4.5", "Preço: ": 9.25 },
+							{ "Seleções: ": "12 e Menos de 4.5", "Preço: ": 1.5 },
+							{ "Seleções: ": "1X e Mais de 4.5", "Preço: ": 13.0 },
+							{ "Seleções: ": "1X e Menos de 4.5", "Preço: ": 1.47 },
+							{ "Seleções: ": "X2 e Mais de 4.5", "Preço: ": 16.0 },
+							{ "Seleções: ": "X2 e Menos de 4.5", "Preço: ": 1.65 },
+						],
+				},
+				{ "Mercado: ": "Handicap - Resultado Final", "Selecções: ": [] },
+				{
+					"Mercado: ": "Intervalo/Final",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1/1", "Preço: ": 3.7 },
+							{ "Seleções: ": "1/X", "Preço: ": 14.5 },
+							{ "Seleções: ": "1/2", "Preço: ": 40.0 },
+							{ "Seleções: ": "X/1", "Preço: ": 5.4 },
+							{ "Seleções: ": "X/X", "Preço: ": 4.35 },
+							{ "Seleções: ": "X/2", "Preço: ": 6.5 },
+							{ "Seleções: ": "2/1", "Preço: ": 32.0 },
+							{ "Seleções: ": "2/X", "Preço: ": 14.0 },
+							{ "Seleções: ": "2/2", "Preço: ": 4.9 },
+						],
+				},
+				{
+					"Mercado: ": "Resultado Correto",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "1 - 0", "Preço: ": 6.6 },
+							{ "Seleções: ": "2 - 0", "Preço: ": 10.5 },
+							{ "Seleções: ": "2 - 1", "Preço: ": 9.5 },
+							{ "Seleções: ": "3 - 0", "Preço: ": 24.0 },
+							{ "Seleções: ": "3 - 1", "Preço: ": 22.0 },
+							{ "Seleções: ": "3 - 2", "Preço: ": 37.0 },
+							{ "Seleções: ": "4 - 0", "Preço: ": 70.0 },
+							{ "Seleções: ": "4 - 1", "Preço: ": 65.0 },
+							{ "Seleções: ": "4 - 2", "Preço: ": 110.0 },
+							{ "Seleções: ": "4 - 3", "Preço: ": 250.0 },
+							{ "Seleções: ": "5 - 0", "Preço: ": 250.0 },
+							{ "Seleções: ": "5 - 1", "Preço: ": 250.0 },
+							{ "Seleções: ": "5 - 2", "Preço: ": 400.0 },
+							{ "Seleções: ": "0 - 0", "Preço: ": 6.2 },
+							{ "Seleções: ": "1 - 1", "Preço: ": 6.0 },
+							{ "Seleções: ": "2 - 2", "Preço: ": 16.0 },
+							{ "Seleções: ": "3 - 3", "Preço: ": 90.0 },
+							{ "Seleções: ": "4 - 4", "Preço: ": 800.0 },
+							{ "Seleções: ": "0 - 1", "Preço: ": 7.9 },
+							{ "Seleções: ": "0 - 2", "Preço: ": 14.5 },
+							{ "Seleções: ": "1 - 2", "Preço: ": 11.0 },
+							{ "Seleções: ": "0 - 3", "Preço: ": 37.0 },
+							{ "Seleções: ": "1 - 3", "Preço: ": 28.0 },
+							{ "Seleções: ": "2 - 3", "Preço: ": 40.0 },
+							{ "Seleções: ": "0 - 4", "Preço: ": 120.0 },
+							{ "Seleções: ": "1 - 4", "Preço: ": 90.0 },
+							{ "Seleções: ": "2 - 4", "Preço: ": 150.0 },
+							{ "Seleções: ": "3 - 4", "Preço: ": 300.0 },
+							{ "Seleções: ": "0 - 5", "Preço: ": 500.0 },
+							{ "Seleções: ": "1 - 5", "Preço: ": 400.0 },
+							{ "Seleções: ": "2 - 5", "Preço: ": 600.0 },
+						],
+				},
+				{
+					"Mercado: ": "Próximo gol (Gol 1)",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Madureira", "Preço: ": 1.93 },
+							{ "Seleções: ": "Sem Gol", "Preço: ": 6.2 },
+							{ "Seleções: ": "Marica RJ", "Preço: ": 2.18 },
+						],
+				},
+				{
+					"Mercado: ": "Madureira - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.34 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 3.1 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 2.55 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.47 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 5.6 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.12 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 10.5 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.025 },
+						],
+				},
+				{
+					"Mercado: ": "Marica RJ - Total de Gols Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 0.5", "Preço: ": 1.45 },
+							{ "Seleções: ": "Menos de 0.5", "Preço: ": 2.62 },
+							{ "Seleções: ": "Mais de 1.5", "Preço: ": 3.0 },
+							{ "Seleções: ": "Menos de 1.5", "Preço: ": 1.35 },
+							{ "Seleções: ": "Mais de 2.5", "Preço: ": 6.9 },
+							{ "Seleções: ": "Menos de 2.5", "Preço: ": 1.08 },
+							{ "Seleções: ": "Mais de 3.5", "Preço: ": 11.75 },
+							{ "Seleções: ": "Menos de 3.5", "Preço: ": 1.015 },
+						],
+				},
+				{ "Mercado: ": "Marcar em qualquer momento", "Selecções: ": [] },
+				{ "Mercado: ": "Marcar 2 ou mais gols", "Selecções: ": [] },
+				{
+					"Mercado: ": "Escanteios Mais/Menos",
+					"Selecções: ":
+						[
+							{ "Seleções: ": "Mais de 8.5", "Preço: ": 1.72 },
+							{ "Seleções: ": "Menos de 8.5", "Preço: ": 2.0 },
+						],
+				},
+			],
+	},
+]
