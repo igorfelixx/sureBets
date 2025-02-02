@@ -69,7 +69,7 @@ def scrapingGames(url):
             else:
                 print("Script com JSON não encontrado.")
         else:
-            print("Não encontrou o Script")
+            print("Não encontrou o Script... Tentando novamente...")
     else:
         print(f"Erro ao acessar a página: {response.status_code}")
         print(response.text)
