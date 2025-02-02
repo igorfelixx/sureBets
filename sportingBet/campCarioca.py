@@ -22,22 +22,16 @@ def campCarioca() :
 			team2 = fixture['participants'][1]['name']['value']
 			start_date = fixture['startDate']
 
-			print(f"Times: {team1} vs {team2}")
-			print(f"Data de início: {fixture['startDate']}")
-			print("-" * 40)
-
 			mercados = []
 
 			for market in fixture['optionMarkets']:
 				market_name = market['name']['value']
-				print(f"Mercado: {market_name}")
 
 				selecoes = []
 
 				for option in market['options']:
 					option_name = option['name']['value']
 					odds = option['price']['odds']
-					print(f"  Opção: {option_name} - Odds: {odds} ")
 
 					selecoes.append({
 						"Seleção": option_name,
@@ -48,8 +42,6 @@ def campCarioca() :
 					"Mercado": market_name,
 					"Seleções": selecoes
 				})
-
-				print("-" * 20) 
 
 			jogos_data.append({
 				"Jogo": f"{team1} vs {team2}",

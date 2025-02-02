@@ -28,10 +28,6 @@ def extract_links():
                 time_visitante = evento.get('awayTeam', {}).get('name')
                 url_evento = evento.get('url')
                 
-                print(f"Jogo: {time_casa} vs {time_visitante}")
-                print(f"Data: {data}")
-                print(f"URL: {url_evento}")
-                print("-" * 50)
                 if url_evento not in game_links:
                     game_links.append(url_evento)
             
