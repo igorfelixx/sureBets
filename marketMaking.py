@@ -6,7 +6,7 @@ from unidecode import unidecode
 
 urls = extract_links()
 
-market_mapping = {
+market_mapping = { # Betano é o da esquerda, SportingBet é a da direita
     "resultadofinal": "resultadodapartidavp(+2)", 
     "totaldegolsmais/menos(alternativas)": "totaldegols",
     # "ambasequipesmarcam": "ambasmarcam",  
