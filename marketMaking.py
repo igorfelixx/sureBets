@@ -82,7 +82,6 @@ def compare_games(sportingbet_data, betano_data):
         for betano_game in betano_data:
             if (normalize_name(sportingbet_game['HomeTeam']) in normalize_name(betano_game['Jogo']) and 
                 normalize_name(sportingbet_game['AwayTeam']) in normalize_name(betano_game['Jogo'])):
-                print(f"\nComparando odds para o jogo: {sportingbet_game['Jogo']}")
                 
                 home_team = sportingbet_game['HomeTeam']  
                 away_team = sportingbet_game['AwayTeam']  
@@ -93,7 +92,6 @@ def compare_games(sportingbet_data, betano_data):
                         betano_market_name = normalize_name(betano_market['Mercado'])
                         
                         if (market_mapping.get(betano_market_name) == sportingbet_market_name):
-                            print(f"\nMercado: {sportingbet_market['Mercado']} (SportingBet) vs {betano_market['Mercado']} (Betano)")
                             comparisons = compare_markets(sportingbet_market, betano_market, home_team, away_team)
                             
                             results.append({

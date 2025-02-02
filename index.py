@@ -71,6 +71,9 @@ def encontrar_surebets(dados):
                             'Seleção 2': time2['Seleção'],
                             'Casa 2': 'Betano',
                             'Odd 2': time2['Betano'],
+                            'Casa 3': 'Betano' if empate['Betano'] > empate['SportingBet'] else 'SportingBet',
+                            'Seleção 3': empate['Seleção'],
+                            'Odd 3': empate['Betano'] if empate['Betano'] > empate['SportingBet'] else empate['SportingBet'],
                             'Lucro Garantido (%)': surebet
                         })
 
@@ -86,6 +89,9 @@ def encontrar_surebets(dados):
                             'Seleção 2': time2['Seleção'],
                             'Casa 2': 'SportingBet',
                             'Odd 2': time2['SportingBet'],
+                            'Casa 3': 'Betano' if empate['Betano'] > empate['SportingBet'] else 'SportingBet',
+                            'Seleção 3': empate['Seleção'],
+                            'Odd 3': empate['Betano'] if empate['Betano'] > empate['SportingBet'] else empate['SportingBet'],
                             'Lucro Garantido (%)': surebet
                         })
 
@@ -122,6 +128,7 @@ if surebets:
         print(f"Mercado: {surebet['Mercado']}")
         print(f"Seleção 1: {surebet['Seleção 1']} (Odd: {surebet['Odd 1']}) em {surebet['Casa 1']}")
         print(f"Seleção 2: {surebet['Seleção 2']} (Odd: {surebet['Odd 2']}) em {surebet['Casa 2']}")
+        print(f"Seleção 3: {surebet['Seleção 3']} (Odd: {surebet['Odd 3']}) em {surebet['Casa 3']}")
         print(f"Lucro Garantido: {surebet['Lucro Garantido (%)']}%")
         print("-" * 50)
 else:
