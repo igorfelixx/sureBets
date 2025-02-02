@@ -54,11 +54,12 @@ def encontrar_surebets(dados):
                             })
 
         elif mercado == 'Resultado da Partida - VP (+2)':
+            print('Time1: ',comparacoes[0], "|||")
+            print('Time2: ',comparacoes[2], "|||")
             if len(comparacoes) == 3: 
                 time1 = comparacoes[0]
                 empate = comparacoes[1]
                 time2 = comparacoes[2]
-
                 if time1['SportingBet'] and time2['Betano']:
                     surebet = calcular_surebet3(time1['SportingBet'], time2['Betano'], empate)
                     if surebet:
@@ -77,7 +78,7 @@ def encontrar_surebets(dados):
                             'Lucro Garantido (%)': surebet
                         })
 
-                if time1['Betano'] and time2['SportingBet']:
+                elif time1['Betano'] and time2['SportingBet']:
                     surebet = calcular_surebet3(time1['Betano'], time2['SportingBet'], empate)
                     if surebet:
                         surebets.append({
