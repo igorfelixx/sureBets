@@ -18,7 +18,6 @@ def encontrar_surebets(dados):
 
                 oposta_selecao = "Menos de " + selecao.split(" ")[-1] if "Mais" in selecao else "Mais de " + selecao.split(" ")[-1]
                 oposta_comparacao = next((c for c in comparacoes if c['Seleção'] == oposta_selecao), None)
-
                 if oposta_comparacao:
                     oposta_sportingbet_odds = oposta_comparacao.get('SportingBet', None)
                     oposta_betano_odds = oposta_comparacao.get('Betano', None)
@@ -38,7 +37,7 @@ def encontrar_surebets(dados):
                                 'Lucro Garantido (%)': surebet
                             })
 
-                    if betano_odds and oposta_sportingbet_odds:
+                    elif betano_odds and oposta_sportingbet_odds:
                         surebet = calcular_surebet(betano_odds, oposta_sportingbet_odds)
                         if surebet:
                             surebets.append({
@@ -113,18 +112,19 @@ def calcular_surebet3(odd1, odd2, odd3):
     if inverso_total < 100:
         return True
 
-dados = main()
-surebets = encontrar_surebets(dados)
+while True:
+    dados = main()
+    surebets = encontrar_surebets(dados)
 
-if surebets:
-    print("Oportunidades de SureBets encontradas:")
-    for surebet in surebets:
-        print(f"Jogo: {surebet['Jogo']}")
-        print(f"Mercado: {surebet['Mercado']}")
-        print(f"Seleção 1: {surebet['Seleção 1']} (Odd: {surebet['Odd 1']}) em {surebet['Casa 1']}")
-        print(f"Seleção 2: {surebet['Seleção 2']} (Odd: {surebet['Odd 2']}) em {surebet['Casa 2']}")
-        print(f"Seleção 3: {surebet['Seleção 3']} (Odd: {surebet['Odd 3']}) em {surebet['Casa 3']}")
-        print(f"Lucro Garantido: {surebet['Lucro Garantido (%)']}%")
-        print("-" * 50)
-else:
-    print("Nenhuma oportunidade de SureBet encontrada.")
+    if surebets:
+        print("Oportunidades de SureBets encontradas:")
+        for surebet in surebets:
+            print(f"Jogo: {surebet['Jogo']}")
+            print(f"Mercado: {surebet['Mercado']}")
+            print(f"Seleção 1: {surebet['Seleção 1']} (Odd: {surebet['Odd 1']}) em {surebet['Casa 1']}")
+            print(f"Seleção 2: {surebet['Seleção 2']} (Odd: {surebet['Odd 2']}) em {surebet['Casa 2']}")
+            print(f"Seleção 3: {surebet['Seleção 3']} (Odd: {surebet['Odd 3']}) em {surebet['Casa 3']}")
+            print(f"Lucro Garantido: {surebet['Lucro Garantido (%)']}%")
+            print("-" * 50)
+    else:
+        print("Nenhuma oportunidade de SureBet encontrada.")
