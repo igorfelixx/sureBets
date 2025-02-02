@@ -1,6 +1,8 @@
 import requests
 
-url = "https://sports.sportingbet.bet.br/pt-br/sports/api/widget/widgetdata?layoutSize=Medium&page=CompetitionLobby&sportId=4&regionId=33&competitionId=102137&compoundCompetitionId=2:102137&widgetId=/mobilesports-v1.0/layout/layout_standards/modules/competition/defaultcontainer&shouldIncludePayload=true"
+#url = "https://sports.sportingbet.bet.br/pt-br/sports/api/widget/widgetdata?layoutSize=Medium&page=CompetitionLobby&sportId=4&regionId=33&competitionId=102137&compoundCompetitionId=2:102137&widgetId=/mobilesports-v1.0/layout/layout_standards/modules/competition/defaultcontainer&shouldIncludePayload=true" # Carioca
+#url = "https://sports.sportingbet.bet.br/pt-br/sports/api/widget/widgetdata?layoutSize=Medium&page=CompetitionLobby&sportId=4&regionId=33&competitionId=102148&compoundCompetitionId=2:102148&widgetId=/mobilesports-v1.0/layout/layout_standards/modules/competition/defaultcontainer&shouldIncludePayload=true" # Paulista
+url = "https://sports.sportingbet.bet.br/pt-br/sports/api/widget/widgetdata?layoutSize=Small&page=CompetitionLobby&sportId=4&regionId=14&competitionId=102841&compoundCompetitionId=2:102841&widgetId=/mobilesports-v1.0/layout/layout_standards/modules/competition/defaultcontainer&shouldIncludePayload=true" # Premier League
 
 headers = {
 	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",

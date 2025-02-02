@@ -2,8 +2,8 @@ import cloudscraper
 from bs4 import BeautifulSoup
 import json
 
-#url = "https://www.betano.bet.br/sport/futebol/inglaterra/premier-league/1/" # Premier League
-url = "https://www.betano.bet.br/sport/futebol/brasil/campeonato-carioca-serie-a/16880/" # Campeonato Carioca Série A
+url = "https://www.betano.bet.br/sport/futebol/inglaterra/premier-league/1/" # Premier League
+#url = "https://www.betano.bet.br/sport/futebol/brasil/campeonato-carioca-serie-a/16880/" # Campeonato Carioca Série A
 #url = "https://www.betano.bet.br/sport/futebol/brasil/campeonato-paulista-serie-a1/16901/" # Campeonato Paulista Série A1
 
 scraper = cloudscraper.create_scraper()
