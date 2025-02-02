@@ -95,19 +95,12 @@ def compare_games(sportingbet_data, betano_data):
                         if (market_mapping.get(betano_market_name) == sportingbet_market_name):
                             print(f"\nMercado: {sportingbet_market['Mercado']} (SportingBet) vs {betano_market['Mercado']} (Betano)")
                             comparisons = compare_markets(sportingbet_market, betano_market, home_team, away_team)
-                            for comp in comparisons:
-                                print(f"  Seleção: {comp['Seleção']}")
-                                print(f"    SportingBet: {comp['SportingBet']} | Betano: {comp['Betano']}")
-                                print(f"    Diferença: {comp['Diferença']:.2f}")
-                                
-                                if comp['Diferença'] > 0.5:  
-                                    print("    ** OPORTUNIDADE DE SURBET **")
+                            
                             results.append({
                                 "Jogo": sportingbet_game['Jogo'],
                                 "Mercado": sportingbet_market['Mercado'],
                                 "Comparações": comparisons
                             })
-    print("resultados: ", results)
     return results
 
 def main():
@@ -115,7 +108,6 @@ def main():
     betano_data = scrapingLinks(urls) 
 
     comparison_results = compare_games(sportingbet_data, betano_data)
-
     return comparison_results
 
 if __name__ == "__main__":
