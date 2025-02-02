@@ -80,7 +80,7 @@ def compare_games(sportingbet_data, betano_data):
     results = []
     for sportingbet_game in sportingbet_data:
         for betano_game in betano_data:
-            if (normalize_name(sportingbet_game['HomeTeam']) in normalize_name(betano_game['Jogo']) and   # O PROBLEMA ESTÁ AQUI
+            if (normalize_name(sportingbet_game['HomeTeam']) in normalize_name(betano_game['Jogo']) and 
                 normalize_name(sportingbet_game['AwayTeam']) in normalize_name(betano_game['Jogo'])):
                 print(f"\nComparando odds para o jogo: {sportingbet_game['Jogo']}")
                 
