@@ -1,7 +1,7 @@
 import json
 from Betano.scrapingGame import scrapingLinks
 from sportingBet.campCarioca import campCarioca
-from Betano.nadaFuncionaNessaPorra import extract_links
+from Betano.campURLS import extract_links
 from unidecode import unidecode 
 
 urls = extract_links()
