@@ -54,15 +54,13 @@ def encontrar_surebets(dados):
                             })
 
         elif mercado == 'Resultado da Partida - VP (+2)':
-            print('Time1: ',comparacoes[0], "|||")
-            print('Time2: ',comparacoes[2], "|||")
             if len(comparacoes) == 3: 
                 time1 = comparacoes[0]
                 empate = comparacoes[1]
                 time2 = comparacoes[2]
                 if time1['SportingBet'] and time2['Betano']:
                     surebet = calcular_surebet3(time1['SportingBet'], time2['Betano'], empate)
-                    if surebet:
+                    if surebet == True:
                         surebets.append({
                             'Jogo': jogo['Jogo'],
                             'Mercado': mercado,
@@ -80,7 +78,7 @@ def encontrar_surebets(dados):
 
                 elif time1['Betano'] and time2['SportingBet']:
                     surebet = calcular_surebet3(time1['Betano'], time2['SportingBet'], empate)
-                    if surebet:
+                    if surebet == True:
                         surebets.append({
                             'Jogo': jogo['Jogo'],
                             'Mercado': mercado,
@@ -111,13 +109,9 @@ def calcular_surebet3(odd1, odd2, odd3):
     else: 
         odd3 = odd3['Betano']
         
-    inverso_total = (1 / odd1) + (1 / odd2) + (1 / odd3)
-    if inverso_total < 1:
-        return round((1 - inverso_total) * 100, 2)
-    return None
-
-
-
+    inverso_total = (100 / odd1) + (100 / odd2) + (100 / odd3)
+    if inverso_total < 100:
+        return True
 
 dados = main()
 surebets = encontrar_surebets(dados)
