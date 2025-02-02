@@ -8,7 +8,7 @@ urls = extract_links()
 
 market_mapping = {
     "resultadofinal": "resultadodapartidavp(+2)", 
-    # "totaldegolsmais/menos": "totaldegols",
+    "totaldegolsmais/menos(alternativas)": "totaldegols",
     # "ambasequipesmarcam": "ambasmarcam",  
     # "chancedupla": "chancedupla",
     # "resultadofinal/totaldegols(2.5)": "resultadodojogoetotaldegols2,5"
@@ -27,12 +27,42 @@ def normalize_name(name):
     name = unidecode(name)
     return name.lower().strip().replace(" ", "").replace("-", "").replace(":", "")
 
+def normalize_market(market):
+    market = unidecode(market)
+    return market.lower().strip().replace(" ", "").replace("-", "").replace(":", "").replace(",", "").replace(".","")
+
 def compare_markets(sportingbet_market, betano_market, home_team, away_team):
     comparisons = []
     for sportingbet_option in sportingbet_market['Seleções']:
         for betano_option in betano_market['Seleções']:
             
             mapped_selection = map_selection(sportingbet_option['Seleção'], home_team, away_team)
+            sportingbet_selection = normalize_name(sportingbet_option['Seleção'])
+            betano_selection = normalize_name(betano_option['Seleção'])
+            
+            if "totaldegols" in normalize_name(sportingbet_market['Mercado']):
+                if "maisde" in sportingbet_selection and "maisde" in betano_selection:
+                    if normalize_market(sportingbet_selection) == normalize_market(betano_selection):
+                        sportingbet_odds = sportingbet_option['Preço']
+                        betano_odds = betano_option['Preço']
+                        difference = abs(sportingbet_odds - betano_odds)
+                        comparisons.append({
+                            "Seleção": sportingbet_option['Seleção'],
+                            "SportingBet": sportingbet_odds,
+                            "Betano": betano_odds,
+                            "Diferença": difference
+                        })
+                elif "menosde" in sportingbet_selection and "menosde" in betano_selection:
+                    if normalize_market(sportingbet_selection) == normalize_market(betano_selection):
+                        sportingbet_odds = sportingbet_option['Preço']
+                        betano_odds = betano_option['Preço']
+                        difference = abs(sportingbet_odds - betano_odds)
+                        comparisons.append({
+                            "Seleção": sportingbet_option['Seleção'],
+                            "SportingBet": sportingbet_odds,
+                            "Betano": betano_odds,
+                            "Diferença": difference
+                        })
             
             if mapped_selection == normalize_name(betano_option['Seleção']):
                 sportingbet_odds = sportingbet_option['Preço']
@@ -77,6 +107,7 @@ def compare_games(sportingbet_data, betano_data):
                                 "Mercado": sportingbet_market['Mercado'],
                                 "Comparações": comparisons
                             })
+    print("resultados: ", results)
     return results
 
 def main():
