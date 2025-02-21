@@ -108,9 +108,9 @@ def calcular_surebet3(odd1, odd2, odd3):
     else: 
         odd3 = odd3['Betano']
         
-    inverso_total = (100 / odd1) + (100 / odd2) + (100 / odd3)
-    if inverso_total < 100:
-        return True
+    inverso_total = (1 / odd1) + (1 / odd2) + (1 / odd3)
+    if inverso_total < 1:
+        return round((1 - inverso_total) * 100, 2)
 
 while True:
     dados = main()
@@ -123,7 +123,10 @@ while True:
             print(f"Mercado: {surebet['Mercado']}")
             print(f"Seleção 1: {surebet['Seleção 1']} (Odd: {surebet['Odd 1']}) em {surebet['Casa 1']}")
             print(f"Seleção 2: {surebet['Seleção 2']} (Odd: {surebet['Odd 2']}) em {surebet['Casa 2']}")
-            print(f"Seleção 3: {surebet['Seleção 3']} (Odd: {surebet['Odd 3']}) em {surebet['Casa 3']}")
+            try:
+                print(f"Seleção 3: {surebet['Seleção 3']} (Odd: {surebet['Odd 3']}) em {surebet['Casa 3']}")
+            except:
+                print('')
             print(f"Lucro Garantido: {surebet['Lucro Garantido (%)']}%")
             print("-" * 50)
     else:

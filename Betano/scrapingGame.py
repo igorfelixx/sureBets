@@ -19,10 +19,13 @@ def scrapingGames(url):
             initial_state = json.loads(json_data)
             
             market_id = None
-            for market in initial_state['data']['markets']:
-                if 'Todos' in market['name']:
-                    market_id = market['id']
-                    break
+            try:
+                for market in initial_state['data']['markets']:
+                    if 'Todos' in market['name']:
+                        market_id = market['id']
+                        break
+            except: 
+                print("Error: Unable to find market id")
             
             if market_id:
                 response = scraper.get(url + f'?bt={market_id}')
@@ -121,16 +124,22 @@ def scrapingLinks(urls):
             all_games_data.append(gamesData)
     return all_games_data
 
-urls = ["https://www.betano.bet.br/odds/sampaio-correa-rj-vasco-da-gama/62837596/"]
-resultados = scrapingLinks(urls)
+# urls = ["https://www.betano.bet.br/odds/flamengo-rj-vasco-da-gama-rj/63033934/"]
+# resultados = scrapingLinks(urls)
 
-for resultado in resultados:
-    print(f"Jogo: {resultado['Jogo']}")
-    print(f"Data: {resultado['Data']}")
-    print(f"Home Team: {resultado['HomeTeam']}")
-    print(f"Away Team: {resultado['AwayTeam']}")
-    print("Mercados:")
-    for mercado in resultado['Mercados']:
-        print(f"  Mercado: {mercado['Mercado']} (ID: {mercado['ID']})")
-        for selecao in mercado['Seleções']:
-            print(f"    Seleção: {selecao['Seleção']}, Preço: {selecao['Preço']}")
+
+# from unidecode import unidecode 
+# for resultado in resultados:
+# #     print(f"Jogo: {resultado['Jogo']}")
+# #     print(f"Data: {resultado['Data']}")
+# #     print(f"Home Team: {resultado['HomeTeam']}")
+# #     print(f"Away Team: {resultado['AwayTeam']}")
+#     print("Mercados:")
+
+    # def normalize_market(market):
+    #     market = unidecode(market)
+    #     return market.lower().strip().replace(" ", "").replace("-", "").replace(":", "").replace(",", "").replace(".","")
+    # for mercado in resultado['Mercados']:
+    #     print(normalize_market(mercado['Mercado']))
+#         for selecao in mercado['Seleções']:
+#             print(f"    Seleção: {selecao['Seleção']}, Preço: {selecao['Preço']}")

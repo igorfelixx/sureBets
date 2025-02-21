@@ -1,112 +1,116 @@
-import json
+import spacy
+from collections import defaultdict
 from Betano.scrapingGame import scrapingLinks
-from sportingBet.campCarioca import campCarioca
+from sportingBet.scrapingGAME import campCarioca
 from Betano.campURLS import extract_links
+from sportingBet.campURLS import campURLS
 from unidecode import unidecode 
+from mapp import MARKET_MAPPING
 
 urls = extract_links()
+# Carregar modelo de NLP em português
+nlp = spacy.load("pt_core_news_lg")
 
-market_mapping = { # Betano é o da esquerda, SportingBet é a da direita
-    "resultadofinal": "resultadodapartidavp(+2)", 
-    "totaldegolsmais/menos(alternativas)": "totaldegols",
-    # "ambasequipesmarcam": "ambasmarcam",  
-    # "chancedupla": "chancedupla",
-    # "resultadofinal/totaldegols(2.5)": "resultadodojogoetotaldegols2,5"
-}
+# Mapeamento de mercados equivalentes
+market_mapping = MARKET_MAPPING
 
-def map_selection(selection, home_team, away_team):
-    if selection == home_team:
-        return "1"  # Time da casa
-    elif selection == away_team:
-        return "2"  # Time visitante
-    elif selection == "X":
-        return "x"  # Empate
-    return selection  
+class SureBetFinder:
+    def __init__(self, similarity_threshold=0.8):
+        self.similarity_threshold = similarity_threshold
+        self.market_cache = defaultdict(dict)
 
-def normalize_name(name):
-    name = unidecode(name)
-    return name.lower().strip().replace(" ", "").replace("-", "").replace(":", "")
+    def normalize_text(self, text):
+        """Normalização robusta com fallback para texto original"""
+        doc = nlp(text.lower())
+        tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct]
+        return " ".join(tokens) if tokens else text.lower().strip()
+    
+    def normalize_market(self, market):
+        market = unidecode(market)
+        return market.lower().strip().replace(" ", "").replace("-", "").replace(":", "").replace(",", "").replace(".","")
 
-def normalize_market(market):
-    market = unidecode(market)
-    return market.lower().strip().replace(" ", "").replace("-", "").replace(":", "").replace(",", "").replace(".","")
+    def is_similar(self, text1, text2):
+        """Similaridade com verificação de vetores vazios"""
+        doc1 = nlp(self.normalize_text(text1))
+        doc2 = nlp(self.normalize_text(text2))
+        return doc1.similarity(doc2) if doc1.has_vector and doc2.has_vector else 0.0
 
-def compare_markets(sportingbet_market, betano_market, home_team, away_team):
-    comparisons = []
-    for sportingbet_option in sportingbet_market['Seleções']:
-        for betano_option in betano_market['Seleções']:
-            
-            mapped_selection = map_selection(sportingbet_option['Seleção'], home_team, away_team)
-            sportingbet_selection = normalize_name(sportingbet_option['Seleção'])
-            betano_selection = normalize_name(betano_option['Seleção'])
-            
-            if "totaldegols" in normalize_name(sportingbet_market['Mercado']):
-                if "maisde" in sportingbet_selection and "maisde" in betano_selection:
-                    if normalize_market(sportingbet_selection) == normalize_market(betano_selection):
-                        sportingbet_odds = sportingbet_option['Preço']
-                        betano_odds = betano_option['Preço']
-                        difference = abs(sportingbet_odds - betano_odds)
-                        comparisons.append({
-                            "Seleção": sportingbet_option['Seleção'],
-                            "SportingBet": sportingbet_odds,
-                            "Betano": betano_odds,
-                            "Diferença": difference
-                        })
-                elif "menosde" in sportingbet_selection and "menosde" in betano_selection:
-                    if normalize_market(sportingbet_selection) == normalize_market(betano_selection):
-                        sportingbet_odds = sportingbet_option['Preço']
-                        betano_odds = betano_option['Preço']
-                        difference = abs(sportingbet_odds - betano_odds)
-                        comparisons.append({
-                            "Seleção": sportingbet_option['Seleção'],
-                            "SportingBet": sportingbet_odds,
-                            "Betano": betano_odds,
-                            "Diferença": difference
-                        })
-            
-            if mapped_selection == normalize_name(betano_option['Seleção']):
-                sportingbet_odds = sportingbet_option['Preço']
-                betano_odds = betano_option['Preço']
-                difference = abs(sportingbet_odds - betano_odds)
-                comparisons.append({
-                    "Seleção": sportingbet_option['Seleção'],
-                    "SportingBet": sportingbet_odds,
-                    "Betano": betano_odds,
-                    "Diferença": difference
-                })
-    return comparisons
+    def find_equivalent_market(self, market_name):
+        """Encontra o mercado equivalente no mapeamento"""
+        normalized_name = self.normalize_market(market_name)
+        for key, aliases in market_mapping.items():
 
-def compare_games(sportingbet_data, betano_data):
-    results = []
-    for sportingbet_game in sportingbet_data:
-        for betano_game in betano_data:
-            if (normalize_name(sportingbet_game['HomeTeam']) in normalize_name(betano_game['Jogo']) and 
-                normalize_name(sportingbet_game['AwayTeam']) in normalize_name(betano_game['Jogo'])):
+            if normalized_name in aliases :
+                return key
+        return None
+
+    def find_similar_market(self, target_market, markets):
+        """Encontra mercados equivalentes usando o mapeamento"""
+        target_key = self.find_equivalent_market(target_market['Mercado'])
+        if not target_key:
+            return None
+
+        for market in markets:
+            market_key = self.find_equivalent_market(market['Mercado'])
+            if market_key == target_key:
+                return market
+        return None
+
+    def match_selections(self, selections_a, selections_b):
+        """Encontra correspondências entre seleções usando similaridade"""
+        matches = []
+        for sel_a in selections_a:
+            for sel_b in selections_b:
+                similarity = self.is_similar(sel_a['Seleção'], sel_b['Seleção'])
+                if similarity > self.similarity_threshold:
+                    matches.append((sel_a, sel_b, similarity))
+        return sorted(matches, key=lambda x: x[2], reverse=True)
+
+    def find_surebets(self, data_platform1, data_platform2):
+        """Identifica oportunidades de arbitragem entre duas plataformas"""
+        surebets = []
+        for game1 in data_platform1:
+            for game2 in data_platform2:
+                # if self.is_similar(self.normalize_text(game1['Jogo']), self.normalize_text(game2['Jogo'])) < 0.5:
+                #     print("game11: ", self.normalize_market(game1['Jogo']))
+                #     print('game2: ', self.normalize_market(game2['Jogo'])) ### os Jogos estão vindo errado quando estão ao vivo por causa da Betano, que é uma api diferente para jogos ao vivo
+                #     continue
                 
-                home_team = sportingbet_game['HomeTeam']  
-                away_team = sportingbet_game['AwayTeam']  
-                
-                for sportingbet_market in sportingbet_game['Mercados']:
-                    for betano_market in betano_game['Mercados']:
-                        sportingbet_market_name = normalize_name(sportingbet_market['Mercado'])
-                        betano_market_name = normalize_name(betano_market['Mercado'])
-                        
-                        if (market_mapping.get(betano_market_name) == sportingbet_market_name):
-                            comparisons = compare_markets(sportingbet_market, betano_market, home_team, away_team)
-                            
-                            results.append({
-                                "Jogo": sportingbet_game['Jogo'],
-                                "Mercado": sportingbet_market['Mercado'],
-                                "Comparações": comparisons
-                            })
-    return results
+                for market1 in game1['Mercados']:
+                    market2 = self.find_similar_market(market1, game2['Mercados'])
+                    if not market2:
+                        continue
+                    
+                    print('---------------------------------------')
+                    print('Jogo SportingBet:', game1['Jogo'], ' ', 'Jogo Betano: ', game2['Jogo'])
+                    print('SportingBet:', market1['Mercado'], ' ',)
+                    print('Betano:', market2['Mercado'], ' ',)
+                    print('---------------------------------------')
+                    matches = self.match_selections(market1['Seleções'], market2['Seleções'])
+                    for sel1, sel2, similarity in matches:
+                        total_prob = (1/sel1['Preço']) + (1/sel2['Preço'])
+                        if total_prob < 1:
+                            surebet = {
+                                'Evento': f"{game1['HomeTeam']} vs {game1['AwayTeam']}",
+                                'Mercado': market1['Mercado'] + " - " + market2['Mercado'],
+                                'Seleção_Plataforma1': sel1['Seleção'],
+                                'Odds1': sel1['Preço'],
+                                'Seleção_Plataforma2': sel2['Seleção'],
+                                'Odds2': sel2['Preço'],
+                                'Lucro_%': round((1/total_prob - 1)*100, 2),
+                                'Similaridade': round(similarity, 2)
+                            }
+                            surebets.append(surebet)
+        return sorted(surebets, key=lambda x: x['Lucro_%'], reverse=True)
 
-def main():
-    sportingbet_data = campCarioca()  
-    betano_data = scrapingLinks(urls) 
-
-    comparison_results = compare_games(sportingbet_data, betano_data)
-    return comparison_results
-
+# Exemplo de uso:
 if __name__ == "__main__":
-    main()
+    sportingbet_urls = campURLS()
+    sportingbet_data = campCarioca(sportingbet_urls)
+    betano_data = scrapingLinks(urls)
+
+    finder = SureBetFinder(similarity_threshold=0.9)
+    oportunidades = finder.find_surebets(sportingbet_data, betano_data)
+    
+    for oportunidade in oportunidades:
+        print(f"Lucro garantido de {oportunidade['Lucro_%']}% no mercado {oportunidade['Mercado']}")

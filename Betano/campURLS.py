@@ -4,9 +4,9 @@ import json
 
 # Lista de URLs
 urls = [
-    "https://www.betano.bet.br/sport/futebol/brasil/campeonato-carioca-serie-a/16880/",  # Campeonato Carioca Série A
+    #"https://www.betano.bet.br/sport/futebol/brasil/campeonato-carioca-serie-a/16880/",  # Campeonato Carioca Série A
     #"https://www.betano.bet.br/sport/futebol/brasil/campeonato-paulista-serie-a1/16901/",  # Campeonato Paulista Série A1
-    #"https://www.betano.bet.br/sport/futebol/inglaterra/premier-league/1/",  # Premier League
+    "https://www.betano.bet.br/sport/futebol/inglaterra/premier-league/1/",  # Premier League
     #"https://www.betano.bet.br/sport/futebol/espanha/laliga/5/", # La liga
     #"https://www.betano.bet.br/sport/futebol/italia/serie-a/1635/",  # Serie A (italiana)
     #"https://www.betano.bet.br/sport/futebol/alemanha/bundesliga/216/",  # Bundesliga
