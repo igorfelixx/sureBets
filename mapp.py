@@ -1306,31 +1306,40 @@ SELECTION_MAPPING = {
         'menosde40'
     },
     '1/1' : {
-        '1/1'
+        '1/1',
+        'HOMETEAMNAME/HOMETEAMNAME'
     },
     '1/x' : {
-        '1/x'
+        '1/x',
+        'HOMETEAMNAME/empate',
     },
     '1/2' : {
-        '1/2'
+        '1/2',
+        'HOMETEAMNAME/AWAYTEAMNAME',
     },
     'x/1' : {
-        'x/1'
+        'x/1',
+        'empate/HOMETEAMNAME'
     },
     'x/x' : {
-        'x/x'
+        'x/x',
+        'empate/empate'
     },
     'x/2' : {
-        'x/2'
+        'x/2',
+        'empate/AWAYTEAMNAME'
     },
     '2/1' : {
-        '2/1'
+        '2/1',
+        'AWAYTEAMNAME/HOMETEAMNAME'
     },
     '2/x' : {
-        '2/x'
+        '2/x',
+        'AWAYTEAMNAME/empate'
     },
     '2/2' : {
-        '2/2'
+        '2/2',
+        'AWAYTEAMNAME/AWAYTEAMNAME'
     },
     '1x/1x' : {
         '1x/1x'
