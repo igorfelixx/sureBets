@@ -124,7 +124,7 @@ def scrapingLinks(urls):
             all_games_data.append(gamesData)
     return all_games_data
 
-# urls = ["https://www.betano.bet.br/odds/flamengo-rj-vasco-da-gama-rj/63033934/"]
+# urls = ["https://www.betano.bet.br/odds/arsenal-west-ham-united/62622251/"]
 # resultados = scrapingLinks(urls)
 
 
@@ -136,10 +136,12 @@ def scrapingLinks(urls):
 # #     print(f"Away Team: {resultado['AwayTeam']}")
 #     print("Mercados:")
 
-    # def normalize_market(market):
-    #     market = unidecode(market)
-    #     return market.lower().strip().replace(" ", "").replace("-", "").replace(":", "").replace(",", "").replace(".","")
-    # for mercado in resultado['Mercados']:
-    #     print(normalize_market(mercado['Mercado']))
+#     def normalize_market(market):
+#         market = unidecode(market)
+#         return market.lower().strip().replace(" ", "").replace("-", "").replace(":", "").replace(",", "").replace(".","")
+    
+#     for mercado in resultado['Mercados']:
 #         for selecao in mercado['Seleções']:
-#             print(f"    Seleção: {selecao['Seleção']}, Preço: {selecao['Preço']}")
+#             # print(f"    Seleção: {selecao['Seleção']}, Preço: {selecao['Preço']}")
+#             #print(mercado['Mercado'])
+#             print('Mercado: ', mercado['Mercado'], ': ', normalize_market(selecao['Seleção']))
