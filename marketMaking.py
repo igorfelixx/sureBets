@@ -131,7 +131,7 @@ class SureBetFinder:
                             surebets.append(surebet)
         return sorted(surebets, key=lambda x: x['Lucro_%'], reverse=True)
 
-# Exemplo de uso:
+# Exemplo de uso...:
 if __name__ == "__main__":
     sportingbet_urls = campURLS()
     sportingbet_data = campCarioca(sportingbet_urls)    
